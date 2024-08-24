@@ -1,0 +1,10 @@
+<div class="cal-view">
+  <label for="valor1">Valor 1</label>
+  <input type="number" [value]="valor1" (input)="ValorSend1($event)" placeholder="Ingrese el primer valor">
+
+  <label for="valor2">Valor 2</label>
+  <input type="number" [value]="valor2" (input)="ValorSend2($event)" placeholder="Ingrese el segundo valor">
+
+  <label for="resultado">Resultado</label>
+  <div class="result">{{resultado}}</div>
+</div>

@@ -1,0 +1,7 @@
+<div class="calculator">
+  <h1 style="text-align: center;">Calculadora</h1>
+  <app-cal-view [valor1]="valor1" [valor2]="valor2" [resultado]="resultado"
+  (valor1enviar)="valor1 = $event" (valor2enviar)="valor2 = $event">
+  </app-cal-view>
+  <app-cal-actions (operation)="operacion($event)" (borrar)="limpiar()"></app-cal-actions>
+</div>

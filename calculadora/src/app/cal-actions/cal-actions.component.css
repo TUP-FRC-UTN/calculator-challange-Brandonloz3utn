@@ -1,0 +1,13 @@
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+button {
+  width: 45px;
+  height: 45px;
+  margin: 10px;
+  font-size: 18px;
+}
+
